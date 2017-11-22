@@ -1,0 +1,2 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+22:43:49	22764/22764	---MCZ	200	added ('OK')	text/html	date:Fri,%2017%20Nov%202017%2022:43:48%20GMT	http://www.bobosocial.com/	www.bobosocial.com/index.html	(from )

@@ -1,0 +1,2 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+22:50:39	3391/3391	---M-Z	200	added ('OK')	text/html	date:Thu,%2031%20Aug%202017%2011:12:22%20GMT	https://mr-foggs.com/	mr-foggs.com/index.html	(from )

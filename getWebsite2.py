@@ -5,7 +5,7 @@ import urllib3
 
 import re
 
-url = 'https://www.google.co.uk/search?q=restaurant+'
+# url = 'https://www.google.co.uk/search?q=restaurant+'
 
 
 class Website:
@@ -13,7 +13,7 @@ class Website:
 	def __init__(self):
 		self.listIndex = 0
 		self.user_agent = 'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; fr) Presto/2.9.168 Version/11.52'
-		self.url = url
+		self.url = 'https://www.google.co.uk/search?q=restaurant+'
 		# self.referer = self.url
 		self.headers = {
 			'User-Agent' : self.user_agent,

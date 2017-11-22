@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.bobosocial.com	TRUE	/	FALSE	1999999999	hs	1860933798
+www.bobosocial.com	TRUE	/	FALSE	1999999999	svSession	eb699a10ea0fb7294ff34e94ee06dc95e49dbd8a0adff687cbdfec3163a7db555a7752a13931deeeddd76e5f94010ae71e60994d53964e647acf431e4f798bcd2e6231e3038fe7b491259591bfdcf1a38db766c0e1b3e8b354eb0a6a0c79dba6
+.wix.com	TRUE	/	FALSE	1999999999	_wixAB3	44041#1
+

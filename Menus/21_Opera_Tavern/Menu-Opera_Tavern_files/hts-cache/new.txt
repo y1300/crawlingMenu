@@ -1,0 +1,2 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+22:50:40	161/161	---M--	302	error ('Moved%20Temporarily')	text/html	date:Fri,%2017%20Nov%202017%2022:50:40%20GMT	http://www.operatavern.co.uk/	www.operatavern.co.uk/index.html	(from )

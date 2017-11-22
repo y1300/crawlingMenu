@@ -1,0 +1,2 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+22:44:03	332268/332268	---M-Z	200	added ('OK')	text/html	etag:W/%22ae0cd848c2df9f049871bd2dd54b8b89%22	http://www.pidginlondon.com/	www.pidginlondon.com/index.html	(from )

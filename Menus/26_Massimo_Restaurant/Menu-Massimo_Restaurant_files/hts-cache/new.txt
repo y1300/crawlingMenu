@@ -1,0 +1,2 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+23:08:28	910/910	---MC-	200	added ('OK')	text/html	date:Fri,%2017%20Nov%202017%2023:08:28%20GMT	http://www.comohotels.comdining/ametsa	www.comohotels.comdining/ametsa.html	(from )
