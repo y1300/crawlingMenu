@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.scoffandbanter.london	TRUE	/	FALSE	1999999999	BIGipServerpool_htb_grp8	3893960202.20480.0000
-www.scoffandbanter.london	TRUE	/	FALSE	1999999999	avr_1873622807_0_0_4294901760_1026448844_0	1831471574_246655
-

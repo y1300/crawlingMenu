@@ -1,2 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-22:49:54	238/238	---M-Z	301	error ('Moved%20Permanently')	text/html	date:Fri,%2017%20Nov%202017%2022:49:53%20GMT	http://www.scoffandbanter.london/	www.scoffandbanter.london/index.html	(from )

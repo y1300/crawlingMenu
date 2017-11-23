@@ -1,2 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-22:44:08	10460/10460	---M--	200	added ('OK')	text/html	etag:%2201a62075da3554668a24c85aaca521c6%22	http://aquashard.co.uk/	aquashard.co.uk/index.html	(from )

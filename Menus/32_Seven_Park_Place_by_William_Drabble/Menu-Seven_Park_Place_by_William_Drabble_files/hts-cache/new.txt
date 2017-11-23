@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-23:14:35	192/192	---M--	301	error ('Moved%20Permanently')	text/html	date:Fri,%2017%20Nov%202017%2023:14:35%20GMT	http://www.stjameshotelandclub.com/michelin-star-chef-william-drabble	www.stjameshotelandclub.com/michelin-star-chef-william-drabble.0.delayed	(from )
-23:14:35	40653/40653	---M-Z	200	added ('OK')	text/html	date:Fri,%2017%20Nov%202017%2023:14:35%20GMT	http://www.stjameshotelandclub.com/de/restaurants-bar/william-drabble	www.stjameshotelandclub.com/de/restaurants-bar/william-drabble.html	(from )

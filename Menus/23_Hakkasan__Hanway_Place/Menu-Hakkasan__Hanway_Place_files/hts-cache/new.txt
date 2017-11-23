@@ -1,2 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-22:50:59	916/916	---MC-	200	added ('OK')	text/html	date:Fri,%2017%20Nov%202017%2022:50:59%20GMT	http://hakkasan.comhakkasan-hanway-place/	hakkasan.comhakkasan-hanway-place/index.html	(from )
