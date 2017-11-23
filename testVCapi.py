@@ -1,4 +1,5 @@
-import http.client, urllib.request, urllib.parse, urllib.error, base64
+import http.client, urllib.parse
+from pprint import pprint
 
 headers = {
     # Request headers
@@ -8,7 +9,7 @@ headers = {
 params = urllib.parse.urlencode({
 	'lang': 'en',
 	'city': 'London',
-	'limit': '0'
+	'limit': '1'
 })
 
 try:
