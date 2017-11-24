@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
 		try:
 			# url = l['socialMedia']['url']
-			url = 'http://www.1lombardstreet.com/the-brasserie'
+			url = 'http://www.1lombardstreet.com/the-brasserie/'
 			name = l['name']
 			print(str(self.listIndex) + ': ' + self.name)			
 			self.prepareFolder(url, name)
@@ -132,8 +132,8 @@ if __name__ == "__main__":
 		except Exception as e:
 			print(e)
 		
-		if not os.listdir(self.folder_name):
-			self.webpageDownload()
+		# if not os.listdir(self.folder_name):
+			# self.webpageDownload()
 
 		# break
 
