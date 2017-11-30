@@ -4,6 +4,7 @@
 # sudo apt-get install httrack
 # And you will need to have wget and lynx installed:
 # sudo apt-get install wget lynx
+# sudo apt-get install python3-bs4
 
 from urllib import request
 from urllib.parse import quote, unquote
@@ -11,7 +12,9 @@ import urllib3
 import re
 import os
 import json
-from vivacityAPI import restaurantList
+from vivacityList import restaurantList
+from vivacityDetail import restaurantDetail
+from random import shuffle
 
 class WebsiteDownloader:
 
@@ -69,7 +72,7 @@ class MenuDownloader:
 
 
 	def directDownload(self):
-		os.system("wget -r -np -nH -nd -A '*.pdf' %s -e robots=off -P %s" % (self.url, self.folder_name))
+		os.system("wget -r --level 0 -nH -nd -A '*.pdf' %s -e robots=off -U mozilla --random-wait -P %s" % (self.url, self.folder_name))
 
 	def prepareFolder(self):
 		self.folder_name = self.cwd + '/Menus/%s_%s/' % (self.id, self.name)
@@ -78,10 +81,27 @@ class MenuDownloader:
 
 
 if __name__ == "__main__":
+	
+	# city = 'London'
+	city = 'Edinburgh'
+	limit = '10'
+
 	menuDownloader = MenuDownloader()
 	webpageDownloader = WebsiteDownloader()
-	restaurantListAPI = restaurantList('London', '')
-	restaurant = restaurantListAPI.extract()
+	
+	# get lists of restaurant
+	# restaurantListAPI = restaurantList(limit, city)
+	# restaurant = restaurantListAPI.extract()
+
+	# get one specific restaurant
+	id = '583a5a2824e2ccd022eeb9c0'
+	restaurantDetailAPI = restaurantDetail(id)
+	restaurant = restaurantDetailAPI.extract()
+
+	# shuffle(restaurant)
+	# print(restaurant)
+
+	print(str(len(restaurant)) + ' restaurants in ' + city)
 
 	urlRecord = open('Menus/urlRecord.csv','w')
 	urlRecord.write("%s,%s,%s,%s\n" % ('note', 'id', 'name', 'url'))
@@ -127,5 +147,5 @@ if __name__ == "__main__":
 
 	urlRecord.close()
 
-	print('OK' + '='*50 + '\n')
+	print('OK\n' + '='*50 + '\n')
 	# print('Num of Directly Downloaded PDF files: ' + str(menuDownloader.directDownloadNum))

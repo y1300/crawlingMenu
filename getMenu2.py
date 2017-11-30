@@ -85,7 +85,7 @@ class MenuDownloader:
 		# print(self.url)
 		# print(self.file_name)
 		# request.urlretrieve(self.url, self.file_name)
-		os.system("wget -r -np -nH -nd -A '*.pdf' %s -e robots=off --spider -U mozilla --random-wait -P %s" % (self.url, self.folder_name))
+		os.system("wget -r --level 0 -np -nH -nd -A '*.pdf' %s -e robots=off --spider -U mozilla --random-wait -P %s" % (self.url, self.folder_name))
 		# os.system('''lynx -cache=0 -dump -listonly %s | grep ".*\.pdf$" | awk '{print $2}' | tee pdflinks.txt''' % self.url)
 
 	def prepareFolder(self, url, name):
@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
 		try:
 			# url = l['socialMedia']['url']
-			url = 'http://www.1lombardstreet.com/the-brasserie/'
+			url = 'https://11brunswickst.co.uk/brasserie/wine-list'
 			name = l['name']
 			print(str(self.listIndex) + ': ' + self.name)			
 			self.prepareFolder(url, name)
