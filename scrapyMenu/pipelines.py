@@ -17,7 +17,7 @@ class ScrapymenuPipeline(object):
         return pipeline
 
     def spider_opened(self, spider):
-        self.file = open('output.csv', 'w+b')
+        self.file = open('pdfLinks.csv', 'a+b')
         self.exporter = CsvItemExporter(self.file)
         self.exporter.start_exporting()
 
