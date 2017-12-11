@@ -1,6 +1,9 @@
-import sys
+# import sys
 import os
-from scrapyMenu import cmdline
+# from scrapyMenu import cmdline
+from scrapy import cmdline
+# import subprocess
+
 
 # from twisted.internet import reactor
 # from scrapy import log, signals
@@ -22,11 +25,20 @@ from scrapyMenu import cmdline
 #     log.start()
 #     reactor.run()
 
+# def intial():
+#     os.chdir('scrapyMenu')
+#     print(os.getcwd())
+#     subprocess.call('scrapy crawl menu')
+
 def run(url, id):
-    print(url,id)
-    os.chdir('scrapyMenu')
+    # print(url,id)
+    # os.chdir('scrapyMenu')
+    # print(os.getcwd())
     # scrapy_crawl('menu')
+    # subprocess.call('redis-cli lpush menu:start_urls http://google.com')
     cmd = "scrapy crawl menu -a url=%s -a id=%s" % (url,id)
     cmdline.execute(cmd.split())
-    os.chdir('..')
-    print(os.getcwd())
+    # os.chdir('..')
+    print("finish Run Scrapy")
+
+run("https://11brunswickst.co.uk/brasserie","123")

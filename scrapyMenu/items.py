@@ -8,5 +8,6 @@
 from scrapy.item import Item, Field
 
 class ScrapymenuItem(Item):
-    link = Field()
-    title = Field()
+    url = Field()
+    id = Field()
+    time = Field()

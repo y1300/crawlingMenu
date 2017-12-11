@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'scrapyMenu.spiders'
 #USER_AGENT = 'scrapyMenu (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -27,7 +27,7 @@ ROBOTSTXT_OBEY = True
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -65,8 +65,15 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'scrapyMenu.pipelines.ScrapymenuPipeline': 300,
+    'scrapyMenu.pipelines.ScrapymenuPipeline': 300,
+    # 'scrapyMenu.pipelines.FilesPipeline': 400,
+    'scrapyMenu.pipelines.ScrapyBlobPipeline': 500,
 }
+
+BLOB_ACCOUNT = 'vivamenu'
+BLOB_KEY = 'C9v5eqdelp25huCRNhC8dEqNRlLS8Z3bJlUJFwvniHEiff79SOkiWVKhtHYOGJKEJ6DeoGv4ZWqAjA9HJXDPAQ=='
+BLOB_STORE = "azure://vivamenu/menu/"
+LOCAL_STORE = '/home/chen/git/crawlingMenu/Menus'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -90,3 +97,12 @@ AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 LOG_LEVEL='ERROR'
+
+# Enables scheduling storing requests queue in redis.
+# SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+# 在redis中保持scrapy-redis用到的各个队列，从而允许暂停和暂停后恢复
+# SCHEDULER_PERSIST = True
+# 可选的先进先出排序
+# SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderQueue'
+# Ensure all spiders share same duplicates filter through redis.
+# DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"

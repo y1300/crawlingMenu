@@ -4,12 +4,12 @@ from scrapy.selector import HtmlXPathSelector
 from scrapyMenu.items import ScrapymenuItem
 from bs4 import BeautifulSoup
 import logging
+from datetime import datetime
+from urllib.parse import urljoin
+# from scrapy_redis.spiders import RedisSpider
 
 class MySpider(CrawlSpider):
     name = "menu"
-
-    # allowed_domains = ["11brunswickst.co.uk"]
-    # start_urls = ["https://11brunswickst.co.uk/brasserie"]
 
     rules = (
         Rule(LxmlLinkExtractor(deny=('')), follow= True), # , restrict_xpaths=('//a[@class="button next"]',)
@@ -36,10 +36,12 @@ class MySpider(CrawlSpider):
             # logging.error(current_link)
             try:
                 if current_link.endswith('pdf'):
+                    current_link = urljoin(response.url, current_link)
                     logging.error(current_link)
                     item = ScrapymenuItem()
-                    item["title"] = self.id
-                    item["link"] = current_link
+                    item["id"] = self.id
+                    item["url"] = current_link
+                    item["time"] = datetime.now().strftime('%Y-%m-%d')
                     yield item
             except:
                 continue

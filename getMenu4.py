@@ -16,8 +16,10 @@ from vivacityList import restaurantList
 from vivacityDetail import restaurantDetail
 from vivacityCity import cityList
 from scrapyMenu import *
-import runScrapy
+# import runScrapy
 from random import shuffle
+# from threading import Thread
+import subprocess
 
 class WebsiteDownloader:
 
@@ -78,7 +80,7 @@ class MenuDownloader:
 		os.system("wget -r --level 0 -nH -nd -A '*.pdf' %s -e robots=off -U mozilla --random-wait -P %s" % (self.url, self.folder_name))
 
 	def prepareFolder(self):
-		self.folder_name = self.cwd + '/Menus/%s_%s/' % (self.id, self.name)
+		self.folder_name = self.cwd + '/Menus/%s/' % (self.id)
 		if not os.path.exists(self.folder_name):
 		    os.makedirs(self.folder_name)
 
@@ -89,8 +91,8 @@ if __name__ == "__main__":
 	# cities = cityList.extract()
 	# for city in cities:
 		# print(city)
-	city = 'London'
-	limit = '10'
+	city = 'Edinburgh'
+	limit = '5'
 
 	menuDownloader = MenuDownloader()
 	webpageDownloader = WebsiteDownloader()
@@ -104,25 +106,25 @@ if __name__ == "__main__":
 	# restaurantDetailAPI = restaurantDetail(id)
 	# restaurant = restaurantDetailAPI.extract()
 
-	shuffle(restaurant)
+	# shuffle(restaurant)
 	# print(restaurant)
 
 	print(str(len(restaurant)) + ' restaurants in ' + city)
 
-	urlRecord = open('Menus/urlRecord.csv','w')
-	urlRecord.write("%s,%s,%s,%s\n" % ('note', 'id', 'name', 'url'))
+	urlRecord = open('urlRecord.csv','a+')
+	# urlRecord.write("%s,%s,%s,%s\n" % ('note', 'id', 'name', 'url'))
 
 	for l in restaurant:
 
 		menuDownloader.listIndex += 1
 
-		# if menuDownloader.listIndex > 5:
-			# continue
-
 		menuDownloader.name = l[1]
 		menuDownloader.name = ''.join([i for i in menuDownloader.name if i.isalpha() or i==' ' or i.isdigit()]).replace(' ','_')
 		menuDownloader.id = l[0]
 		menuDownloader.url = l[2]
+
+		# if menuDownloader.listIndex != 9:
+			# continue
 
 		if menuDownloader.url is not None:
 			print(str(menuDownloader.listIndex) + ': ' + menuDownloader.name)
@@ -148,18 +150,15 @@ if __name__ == "__main__":
 		# except Exception as e:
 		# 	print(e)
 
-		# if not os.listdir(menuDownloader.folder_name):
-		if 1:
-			try:
-				runScrapy.run(menuDownloader.url, menuDownloader.id)
-			except Exception as e:
-				print(e)
-				# menuDownloader.webpageDownload()
+		try:
+			os.system('curl http://localhost:6800/schedule.json -d project=scrapyMenu -d spider=menu -d url="%s" -d id="%s"' % (menuDownloader.url, menuDownloader.id))
+		except Exception as e:
+			print(e)
+			# menuDownloader.webpageDownload()
 
+		if not os.listdir(menuDownloader.folder_name):
+			menuDownloader.webpageDownload()
 
-		# 	menuDownloader.webpageDownload()
-
-		# break
 
 	urlRecord.close()
 

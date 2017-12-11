@@ -1,199 +1,196 @@
-1 Lombard Street Brasserie
-Din Dins - Testing
-Avenue
-Corrigan's Mayfair
-Park Chinois - Testing
-Bentley's Oyster Bar & Grill
-German Gymnasium
-BOBO Social
-Nobu Milano
-Hutong 胡同
-Pidgin
-The Modern Pantry Clerkenwell
-Ristorante Frescobaldi London
-Aqua Shard
-Tonic and Remedy
-Urban Coterie
-Roast
-Steak & Lobster - Bloomsbury
-Scoff & Banter - Leicester Square
-Scoff & Banter Tea Rooms, Oxford Street
-Steak & Lobster - Marble Arch
-Mac and Wild
-Mr Foggs Tavern
-Opera Tavern
-Zoilo
-Hakkasan - Hanway Place
-Galvin La Chapelle
-Ametsa with Arzak Instruction
-Massimo Restaurant
-The Ritz Restaurant - London
+1 Lombard Street Brasserie"
+Corrigan's Mayfair"
+Bentley's Oyster Bar & Grill"
+German Gymnasium"
+BOBO Social"
+Nobu Milano"
+Hutong 胡同"
+Pidgin"
+The Modern Pantry Clerkenwell"
+Ristorante Frescobaldi London"
+Aqua Shard"
+Tonic and Remedy"
+Urban Coterie"
+Roast"
+Steak & Lobster - Bloomsbury"
+Scoff & Banter - Leicester Square"
+Scoff & Banter Tea Rooms, Oxford Street"
+Steak & Lobster - Marble Arch"
+Mac and Wild"
+Mr Foggs Tavern"
+Opera Tavern"
+Zoilo"
+Hakkasan - Hanway Place"
+Galvin La Chapelle"
+Ametsa with Arzak Instruction"
+Massimo Restaurant"
+The Ritz Restaurant - London"
 Smoking Goat
-Tapeo & Wine
+Tapeo & Wine"
 Alyn Williams at The Westbury Hotel
-Maze by Gordon Ramsay Restaurants
-Seven Park Place by William Drabble
-Fera at Claridge's
-Tom's Kitchen - Somerset House
-Heddon Street Kitchen by Gordon Ramsay
-Galvin Bistrot de Luxe
-Palm Court at The Langham
-Marcus
-Hélène Darroze at The Connaught
-Alain Ducasse at The Dorchester
+Maze by Gordon Ramsay Restaurants"
+Seven Park Place by William Drabble"
+Fera at Claridge's"
+Tom's Kitchen - Somerset House"
+Heddon Street Kitchen by Gordon Ramsay"
+Galvin Bistrot de Luxe"
+Palm Court at The Langham"
+Marcus"
+Hélène Darroze at The Connaught"
+Alain Ducasse at The Dorchester"
 CÉLESTE
-Pétrus - Gordon Ramsay
-The Goring Dining Room
+Pétrus - Gordon Ramsay"
+The Goring Dining Room"
 Angler
 Pied à Terre
-Fortnum & Mason - The Diamond Jubilee Tea Salon
-Shoryu Ramen - Regent Street
-Burger & Lobster - Soho
-Burger & Lobster - Leicester Square
-Burger & Lobster - Oxford Circus
-Golden Arrow Bar & Restaurant
-Grand Imperial London
-Rules
-Sketch - Gallery - Afternoon Tea
-Signor Sassi
-The Wolseley
-Imperial China London
-Wright Brothers Oyster & Porter House
-Poppies Fish and Chips Spitalfields
-Patisserie Valerie - Soho
-Sketch - Lecture Room & Library
-Poppie's Fish & Chips Soho
-Ping Pong - Southbank
-One-O-One
-Michael Caine's - ABode Restaurant
-Wing's
-TNQ Restaurant & Bar
-The River Restaurant
-The Restaurant Bar & Grill Manchester
-Yuzu
-El Gato Negro
-City Café & Urban at DoubleTree
-63 Degrees
-FuluShou 福禄寿
-Pearl Liang
-Beijing Dumpling
-Le Chinois Restaurant and Bar
-Chinese Cricket Club
-Hakkasan - Mayfair
-Yauatcha City
-Tokyo Sukiyaki-Tei
-No.11 Brasserie
-Badger and Co
-Chaophraya Edinburgh
-The Honours
-Tsunami
-Chai Wu - Harrods
-Sake No Hana
-Roka - Aldwych
-Arnero Restaurant
-The Table
-Cadiz
-Cafe Andaluz Edinburgh
-Koji
-Babylon at The Roof Gardens
-Miyako at Andaz
-Amarone Edinburgh
-Element
-The Wee Restaurant
-The Dining Room
-Smoke Stack
-Passorn Thai Brasserie
-Ondine
-Mother India's Cafe
-Fishers in the City
-Howies Waterloo Place
-Blueprint Cafe
-Oblix Restaurant
-Coq d'Argent
-R.S. Hispaniola
-Skylon
-Swan at Shakespeare's Globe
-Squid Ink
-Vermilion and Cinnabar
-Blanchette Soho
-Home Café Bar
-K2 Karaoke Nightclub
-Oklava
-The Duck and Rice
-Artusi
-Bob Bob Ricard
-Casa Malevo
-James Cochran
-The Test Kitchen
-Granger & Co. Clerkenwell
-Bierschenke
-Bonnie Gull Seafood Shack
-Cafe Below
-Bar Remo
-BungaTINI
-Il Ridotto
-Terrace Grill and Bar
-Black Dog NWS
-Indian Tiffin Room Manchester
-Fazenda Manchester 
-Albert's Schloss
-Beastro
-Scene Indian street Kitchen
-Don Giovanni
-Per Tutti Café and Bar Manchester
-Cromptons At The Waterside
-The Rabbit In The Moon
-Sky Pod Bar
-Richmond Tea Rooms
-Teppanyaki Chinatown
-Sapporo Teppanyaki Manchester
-Thaikhun Manchester
-Aizle
-Bonham - Consulting Room
-Fishers Leith
-Castle Terrace
-The Modern Pantry Finsbury Square
-Aqua Kyoto
-Aqua Nueva
-Trishna
-Outlaw's at The Capital
-Kitchen W8
-Tredwell's from Marcus Wareing
-Roux at The Landau
-HIX Mayfair
-Club Gascon
-Yauatcha Soho
+Fortnum & Mason - The Diamond Jubilee Tea Salon"
+Shoryu Ramen - Regent Street"
+Burger & Lobster - Soho"
+Burger & Lobster - Leicester Square"
+Burger & Lobster - Oxford Circus"
+Golden Arrow Bar & Restaurant"
+Grand Imperial London"
+Rules"
+Sketch - Gallery - Afternoon Tea"
+Signor Sassi"
+The Wolseley"
+Imperial China London"
+Wright Brothers Oyster & Porter House"
+Poppies Fish and Chips Spitalfields"
+Patisserie Valerie - Soho"
+Sketch - Lecture Room & Library"
+Poppie's Fish & Chips Soho"
+Ping Pong - Southbank"
+One-O-One"
+Michael Caine's - ABode Restaurant"
+Wing's"
+TNQ Restaurant & Bar"
+The River Restaurant"
+The Restaurant Bar & Grill Manchester"
+Yuzu"
+El Gato Negro"
+City Café & Urban at DoubleTree"
+63 Degrees"
+FuluShou 福禄寿"
+Pearl Liang"
+Beijing Dumpling"
+Le Chinois Restaurant and Bar"
+Chinese Cricket Club"
+Hakkasan - Mayfair"
+Yauatcha City"
+Tokyo Sukiyaki-Tei"
+No.11 Brasserie"
+Badger and Co"
+Chaophraya Edinburgh"
+The Honours"
+Tsunami"
+Chai Wu - Harrods"
+Sake No Hana"
+Roka - Aldwych"
+Arnero Restaurant"
+The Table"
+Cadiz"
+Cafe Andaluz Edinburgh"
+Koji"
+Babylon at The Roof Gardens"
+Miyako at Andaz"
+Amarone Edinburgh"
+Element"
+The Wee Restaurant"
+The Dining Room"
+Smoke Stack"
+Passorn Thai Brasserie"
+Ondine"
+Mother India's Cafe"
+Fishers in the City"
+Howies Waterloo Place"
+Blueprint Cafe"
+Oblix Restaurant"
+Coq d'Argent"
+R.S. Hispaniola"
+Skylon"
+Swan at Shakespeare's Globe"
+Squid Ink"
+Vermilion and Cinnabar"
+Blanchette Soho"
+Home Café Bar"
+K2 Karaoke Nightclub"
+Oklava"
+The Duck and Rice"
+Artusi"
+Bob Bob Ricard"
+Casa Malevo"
+James Cochran"
+The Test Kitchen"
+Granger & Co. Clerkenwell"
+Bierschenke"
+Bonnie Gull Seafood Shack"
+Cafe Below"
+Bar Remo"
+BungaTINI"
+Il Ridotto"
+Terrace Grill and Bar"
+Black Dog NWS"
+Indian Tiffin Room Manchester"
+Fazenda Manchester "
+Albert's Schloss"
+Beastro"
+Scene Indian street Kitchen"
+Don Giovanni"
+Per Tutti Café and Bar Manchester"
+Cromptons At The Waterside"
+The Rabbit In The Moon"
+Sky Pod Bar"
+Richmond Tea Rooms"
+Teppanyaki Chinatown"
+Sapporo Teppanyaki Manchester"
+Thaikhun Manchester"
+Aizle"
+Bonham - Consulting Room"
+Fishers Leith"
+Castle Terrace"
+The Modern Pantry Finsbury Square"
+Aqua Kyoto"
+Aqua Nueva"
+Trishna"
+Outlaw's at The Capital"
+Kitchen W8"
+Tredwell's from Marcus Wareing"
+Roux at The Landau"
+HIX Mayfair"
+Club Gascon"
+Yauatcha Soho"
 Er Mei
-Galvin at Windows
-The Ledbury
-The Ivy
-Shikumen Ealing
-Min Jiang
-Cocochan
-Opium Cocktail & Dim Sum Parlour
-OXO Tower Brasserie
-Northbank Restaurant
-Bia Bistrot
-Darwin Brasserie
-Fenchurch Restaurant
-City Centre Cruises Ltd
-KILN
-Boulestin
-Lima Floral
-L'Atelier de Joel Robuchon
-Portrait Restaurant
-Sanzio
-Gallery Mess
-Lima Fitzrovia
-Aline of Lebanon
-Adore REMO
-10 Greek Street
-The Piano Works
-Nobu - Old Park Lane
-Local
-CoVino
-Osteria Brunello
-Il Ristorante Trussardi alla Scala
-La Griffe
-Glass Hostaria
-Magnolia Restaurant
+Galvin at Windows"
+The Ledbury"
+The Ivy"
+Shikumen Ealing"
+Min Jiang"
+Cocochan"
+Opium Cocktail & Dim Sum Parlour"
+OXO Tower Brasserie"
+Northbank Restaurant"
+Bia Bistrot"
+Darwin Brasserie"
+Fenchurch Restaurant"
+City Centre Cruises Ltd"
+KILN"
+Boulestin"
+Lima Floral"
+L'Atelier de Joel Robuchon"
+Portrait Restaurant"
+Sanzio"
+Gallery Mess"
+Lima Fitzrovia"
+Aline of Lebanon"
+Adore REMO"
+10 Greek Street"
+The Piano Works"
+Nobu - Old Park Lane"
+Local"
+CoVino"
+Osteria Brunello"
+Il Ristorante Trussardi alla Scala"
+La Griffe"
+Glass Hostaria"
+Magnolia Restaurant"
